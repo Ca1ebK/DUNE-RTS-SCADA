@@ -1,0 +1,2 @@
+curtainTripped
+curtainContinue

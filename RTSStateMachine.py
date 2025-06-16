@@ -373,8 +373,9 @@ class RTSMachine(StateMachine):
          
          # * Path name for file being read
          # ! Must be updated for different machines and file names
-         path: str = '/Users/volson/Desktop/robotState.txt'
-         
+         #  path: str = '/Users/volson/Desktop/robotState.txt'
+         path: str = '/Users/calebkang/Desktop/CCI/DUNE-RTS-SCADA/robotState.txt'
+
          if os.path.isfile(path):
             # Once GUI is closed or state transitions loop stops
             while (self.exists) & (self.current_state.id == state):
